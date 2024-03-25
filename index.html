@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Book</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Recipe Book</h1>
+    </header>
+    <input type="text" id="searchInput" placeholder="Search recipes...">
+    <button id="addRecipeBtn">Add Recipe</button>
+    <div class="container">
+        <ul id="recipeList">
+            <!-- <li class="recipeitem">
+                <img src="https://images.spoonacular.com/file/wximages/423186-636x393.png" alt="#">
+                <h2>Recipie 1</h2>
+                <p>
+                    <strong>Ingredients:</strong>
+                    a b c
+                </p>
+                <a href="#">View Recipe</a>
+            </li>
+            <li class="recipeitem">
+                <img src="https://images.spoonacular.com/file/wximages/423186-636x393.png" alt="#">
+                <h2>Recipie 2</h2>
+                <p>
+                    <strong>Ingredients:</strong>
+                    a b c
+                </p>
+                <a href="#">View Recipe</a>
+            </li>
+            <li class="recipeitem">
+                <img src="https://images.spoonacular.com/file/wximages/423186-636x393.png" alt="#">
+                <h2>Recipie 3</h2>
+                <p>
+                    <strong>Ingredients:</strong>
+                    a b c
+                </p>
+                <a href="#">View Recipe</a>
+            </li> -->
+        </ul>
+    </div>
+
+    <div class="modal" id="addRecipeModal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Add Recipe</h2>
+            <input type="text" id="recipeNameInput" placeholder="Recipe Name">
+            <textarea id="recipeTextInput" placeholder="Recipe Instructions"></textarea>
+            <button id="saveRecipeBtn">Save</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
