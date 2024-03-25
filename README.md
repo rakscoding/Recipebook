@@ -22,7 +22,7 @@ This is a simple recipe app that allows users to browse through random recipes f
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/rakcoding/Recipebook.git
+   git clone https://github.com/rakcoding/Recipebook
    ```
 
 2. Open `index.html` in your web browser.
